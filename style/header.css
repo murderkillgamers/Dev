@@ -1,0 +1,11 @@
+#header{
+    background-color: #c23836;/*RED*/
+    background-color: #3679c2;/*BLUE*/
+    background-color: #36c271;/*GREEN*/
+    background-color: #738484;/*GREY*/
+    background-color: #11927d;/*OCEAN*/
+}
+#header h1, #header p{
+    color:#eaf0f2;
+    margin: 5px 10px;
+}

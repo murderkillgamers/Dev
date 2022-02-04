@@ -1,0 +1,127 @@
+body{margin:0px;padding:0px;font-family:"lucida grande",verdana,sans-serif;background-color: #eaf0f2;color:#5c5c5c;overflow-y: scroll;}
+body{background-image: url("../images/TestingModul.png");background-repeat:repeat;}
+body table{border-collapse:collapse;/*cellspacing = "0"*/width:100%;}
+body th, body tr, body td{padding:0;/*cellpadding = "0"*/}
+body {font-size:11px;}
+body p{font-size:11px;}
+body h1{font-size:30px;}
+body h2{font-size:24px;}
+body h3{font-size:20px;}
+body h4{font-size:18px;}
+body h5{font-size:16px;}
+body h6{font-size:14px;}
+body h1, body h2, body h3, body h4, body h5, body h6, body p{margin:0px;}
+body ul, body li{list-style:none;margin:0px;padding:0px;}
+body img{border:none; vertical-align: bottom}
+body hr{margin:0;height:1px;border: none;background: #666666;}
+body a:link{text-decoration:none;}
+a, a:visited, a:hover, a:active {color: inherit;}
+
+body .relative{position: relative;}
+body .absolute{position: absolute;}
+body .fixed{position: fixed;}
+body .static{position: static;}
+body .float_left{float:left;}
+body .float_right{float:right;}
+body .clear_both{clear:both;}
+body .justify{text-align: justify;}
+body .block{display: inline-block;}
+
+body .transparent{background:url('../images/white_50.png');}
+
+body .top{vertical-align:top;}
+body .middle{ display: table-cell; vertical-align: middle;}
+body .bottom{vertical-align:bottom;}
+
+body .left{text-align:left;}
+body .right{text-align:right;}
+body .center{text-align:center;}
+
+body .bold{font-weight:bold;}
+body .italic{font-style:italic;}
+body .underline{text-decoration:underline;}
+body .strip{text-decoration:line-through;}
+
+body .hidden{display:none;}
+body .show{display:block;}
+body .pointer{cursor:pointer;}
+
+#drawer_left{width:250px;left:-250px;z-index: 2;background:#5e5e5e; color:#efefef;}
+#drawer_left .dl_item{padding:5px 10px;}
+#drawer_left .dl_item:hover{background-color: #CCCCCC;color:#333333;}
+#drawer_left a{color:#efefef;}
+
+#drawer_right{width:250px;right:-250px;z-index: 2;background:#5e5e5e; color:#efefef;}
+#drawer_right .dr_item{padding:5px 10px;}
+#drawer_right .dr_item:hover{background-color: #CCCCCC;color:#333333;}
+#drawer_right a{color:#efefef;}
+
+#drawer_rightprofile {position: absolute;height:220px;top:-220px;z-index:1;right:0px;background:#fffffff5;color:#5F5F5F;}
+#drawer_rightprofile .drp_name{font-size:14px;padding:2px 10px;cursor:default;}
+#drawer_rightprofile .drp_initial{font-size:10px;padding: 0px 10px;cursor: default;}
+#drawer_rightprofile .drp_item{padding:3px 10px;color:#5F5F5F;}
+#drawer_rightprofile .drp_item:hover{background-color: #CCCCCC;color:#333333;}
+#drawer_rightprofile .drp_data{padding:3px 5px;}
+#drawer_rightprofile .drp_hr{margin:11px;height:1px;border: none;background: #b5b5b5;}
+
+#whole{position:absolute;width:100%;top:46px;z-index:1;}
+#windowManageAccountUserAccessibility{
+    position:relative;
+    height:100%;
+    padding:0;
+    overflow:auto;
+    outline:0;
+    border-width:0px;
+    z-index:1;
+}
+#windowManageAccount{z-index:1;width:100%;}
+
+#formManageAccount input[required] {box-shadow: none;}
+#windowManageAccount {z-index: 2;}
+
+.table_content,
+.table_content th,
+.table_content td{ border:1px #cccccc solid; }
+.table_head{background-color: #1d388d; color:#EFEFEF; height: 30px; }
+.table_content tr:nth-child(odd){ background-color: #e2f0f6;}
+.table_content tr:nth-child(even){ background-color: #ffffff;}
+table p,table h1,table h2,table h3,table h4,table h5,table h6{ margin:1px 5px;}
+
+#modulHeader{padding:10px;}
+#modulHeader #modulBreadCrumbs{background-color: #1ad1b3;padding:5px 10px;}
+
+.panel_con{padding:10px;}
+.panel{cursor:pointer;}
+.panel:hover{background-color:#5E5E5E;}
+.panel_con .panel .panel_content{padding: 10px;}
+.panel_con .panel .panel_title{padding: 5px;background:url('../images/black_20.png')}
+
+#mask{
+    background-color:#333333;
+    z-index:9998;
+    top:0px;
+    left:0px;
+}
+#message{
+    background-color:#efefef;
+    z-index:9999;
+    padding:20px;
+    padding:20px;
+    border:#cccccc solid 1px;
+}
+#message_detail{
+    width:400px;
+}
+#message_detail .img_close{
+    top:20px;
+    right:20px;
+}
+
+.k-editor-inline {margin: 0;border-width: 0;box-shadow: none;background: none;}
+.k-editor-inline.k-state-active {border-width: 1px;background: none;}
+.file-icon{display: inline-block;float: left;width: 48px;height: 48px;margin-left: 10px;margin-top: 13.5px;}
+li.k-file .file-wrapper .k-upload-action{position: absolute;top: 0;right: 0;}
+li.k-file div.file-wrapper{position: relative;}
+.k-button{min-width:0px !important;}
+.k-content, .k-input{ background: none !important; }
+.k-content .chart-wrapper .k-tooltip{ background: #efefef !important; }

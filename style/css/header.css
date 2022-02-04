@@ -1,0 +1,10 @@
+#header{
+    background-color: #c23836;/*RED*/
+    background-color: #3679c2;/*BLUE*/
+    background-color: #36c271;/*GREEN*/
+    background-color: #738484;/*GREY*/
+}
+#header h1, #header p{
+    color:#efefef;
+    margin: 5px 10px;
+}

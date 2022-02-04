@@ -1,0 +1,30 @@
+<?php
+$languageText["signin"] = "Masuk";
+$languageText['username'] = "Nama pengguna";
+$languageText['password'] = "Kata sandi";
+
+$languageText['pleasefillinyourusername!'] = "Please fill in your Username!";
+$languageText['pleasefillinyourpassword!'] = "Please fill in your Password!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
+$languageText[''] = "Please fill in your Username!";
